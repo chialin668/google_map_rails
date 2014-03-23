@@ -1,0 +1,63 @@
+<%= hidden_field_tag :html_type, 'ajax' %>
+
+<%
+	ajax_params="'stype='+ escape($('stype').value) " +
+			"+ '&region='+ escape($('region').value)" +
+			"+ '&scount='+ escape($('scount').value)" +
+			"+ '&mtype='+ escape($('mtype').value)" +
+			"+ '&html_type='+ escape($('html_type').value)" 
+%>
+
+<h3>Please Choose:</h3>
+
+<br />
+<!------------------- School Type ---------------------->
+School Type:
+	<%= select_tag(:stype, options_for_select([['High', 'H'], ['Middle', 'M'], ['Elementary', 'E']]), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_region},
+								:with => ajax_params)) 
+	%>
+<br /><br />
+
+Region:
+	<%= select_tag(:region, options_for_select(['SF', 'LA']), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_region},
+								:with => ajax_params)) 
+	%>
+<br /><br />
+
+
+Top 
+
+	<%= select_tag(:scount, options_for_select([10, 20, 30, 40, 50]), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_region},
+								:with => ajax_params)) 
+	%>
+
+in 
+	<%= select_tag(:mtype, options_for_select([['Region', 'region'], ['State', 'state']]), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_region},
+								:with => ajax_params)) 
+	%>.
+<br /><br />
+
+
+<hr>
+
+<div id='sidebar_ajax'>
+	<% 
+		# also called by region.rhtml 
+		html, tagline, marker_not_found = region_draw_markers(nil)
+		mnf_symbol_str = "<br /><br /><font size='-2'>&#8224;: Geo marker not found.</font>" 
+		html += mnf_symbol_str if marker_not_found
+	 %>
+	 
+	<%= html %>	
+</div>		
+
+<br />
+[<A HREF="<%=@app_base%>/cns">Back</A>]

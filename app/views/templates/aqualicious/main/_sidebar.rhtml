@@ -1,0 +1,33 @@
+<div id="sidebarContainer">
+  <div id="sidebar">
+	 <div id="sidebar-categories">
+
+		<%= hidden_field_tag :html_type, 'ajax' %>
+		
+		<%
+			ajax_params="'county_name='+ escape($('county_name').value) " +
+					"+ '&html_type='+ escape($('html_type').value)" + 
+					"+ '&stype='+ escape($('stype').value)" 
+		
+		%>
+		
+		County: <br />
+			<%
+				counties=CnsCounty.find(:all, :order=>'county_name')
+				county_names=[]
+				for county in counties
+					county_names << county.county_name
+				end
+			%>
+			<%= select_tag(:county_name, options_for_select(county_names.uniq), 
+									:onchange=>remote_function(
+										:url =>{:controller => @app_name.downcase, :action => :refresh_county},
+										:with => ajax_params)) 
+			%>
+		<br /><br />
+
+		
+	</div>					 
+  </div> <!-- sidebar -->
+</div> <!-- sidbarContainer -->
+		

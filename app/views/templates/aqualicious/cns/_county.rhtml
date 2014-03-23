@@ -1,0 +1,66 @@
+<%= hidden_field_tag :html_type, 'ajax' %>
+
+<%
+	ajax_params="'county_name='+ escape($('county_name').value) " +
+			"+ '&html_type='+ escape($('html_type').value)" + 
+			"+ '&mtype='+ escape($('mtype').value)" + 
+			"+ '&stype='+ escape($('stype').value)" 
+
+%>
+
+<h3>Please Choose:</h3>
+
+<br />
+<!------------------- School Type ---------------------->
+School Type:
+	<%= select_tag(:stype, options_for_select([['High', 'H'], ['Middle', 'M'], ['Elementary', 'E']]), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_county},
+								:with => ajax_params)) 
+	%>
+<br /><br />
+
+
+<!------------------- County ---------------------->
+County: 
+	<%
+		counties=CnsCounty.find(:all, :order=>'county_name')
+		county_names=[]
+		for county in counties
+			county_names << county.county_name
+		end
+	%>
+	<%= select_tag(:county_name, options_for_select(county_names.uniq), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_county},
+								:with => ajax_params)) 
+	%>
+<br /><br />
+
+
+Display:
+	<%= select_tag(:mtype, options_for_select([['Districts', 'district'], ['County Top-10', 'county'], ['State Top-50', 'state']]), 
+							:onchange=>remote_function(
+								:url =>{:controller => @app_name.downcase, :action => :refresh_county},
+								:with => ajax_params)) 
+	%>
+
+<br /><br />
+
+<hr>
+
+<div id='sidebar_ajax'>
+	<% 
+		# also called by county.rhtml 
+		html, tagline, marker_not_found = county_draw_markers(nil)
+
+		mnf_symbol_str = "<br /><br /><font size='-2'>&#8224;: Geo marker not found.</font>" 
+		html += mnf_symbol_str if marker_not_found
+	 %>
+	 
+	<%= html %>	
+	
+</div>		
+
+<br />
+[<A HREF="<%=@app_base%>/cns">Back</A>]

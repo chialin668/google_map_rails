@@ -1,0 +1,19 @@
+<table cellspacing='0' border='1'>
+	<tr>
+		<td>
+			<%= @map.div(:width => 670, :height => 550) %>
+		</td>
+	</tr>
+</table>		
+
+<div id='legend_ajax'>
+	<%= draw_legend(nil) %>
+</div>
+
+<% 
+	draw_polygons(nil, @polygons)
+
+	# also called by _sidebar.rhtml (_county.rhtml)
+	html, tagline, marker_not_found = county_draw_markers(nil)
+	
+ %>

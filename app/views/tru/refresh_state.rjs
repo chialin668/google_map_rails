@@ -1,0 +1,34 @@
+=begin
+  # Congroller:
+    @map = GMap.new("map_div")
+    @map.control_init(:large_map => true, :map_type => true)
+    @map.center_zoom_init([37.420644, -121.021325], 6) # center of California
+    load_markers(@map)
+  
+  # rjs
+    color2icons = init_color_icons(page)
+    icon = get_icon(color2icons, 1, 900)
+    page << @map.add_overlay(GMarker.new([county.lat.to_f, county.lng.to_f], 
+                                :icon => icon,
+                                :title => county.name,
+                                :info_window => '')) 
+
+select  SUBSTRING(week_ending_date, 1, 7) month, avg(num_listed) num_listed, 
+  avg(median_price) median_price, avg(average_price) average_price
+from tru_stats 
+where stat_type='county' 
+and bedroom=0 
+and reference_id = 1
+group by month;
+
+=end
+
+####################################################################################################
+
+@map = Variable.new("map") 
+page << @map.clear_overlays
+
+html = state_draw_markers(page)
+
+page['sidebar_ajax'].replace_html(html)
+

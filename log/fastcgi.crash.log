@@ -1,0 +1,200 @@
+# Logfile created on Sat Feb 23 17:08:04 CST 2008 by logger.rb/1.5.2.7
+[23/Feb/2008:17:08:04 :: 17930] starting
+[23/Feb/2008:18:02:56 :: 17930] asked to terminate immediately
+[23/Feb/2008:18:02:56 :: 17930] terminated by explicit exit
+[23/Feb/2008:18:12:05 :: 11862] starting
+[23/Feb/2008:18:55:40 :: 11862] asked to terminate immediately
+[23/Feb/2008:18:56:54 :: 11862] terminated gracefully
+[23/Feb/2008:18:57:31 :: 22311] starting
+[23/Feb/2008:19:00:46 :: 22311] asked to terminate immediately
+[23/Feb/2008:19:00:46 :: 22311] terminated by explicit exit
+[23/Feb/2008:19:26:51 :: 19586] starting
+[23/Feb/2008:21:52:35 :: 8910] starting
+[23/Feb/2008:21:52:55 :: 9114] starting
+[23/Feb/2008:21:56:03 :: 11299] starting
+[23/Feb/2008:21:56:49 :: 11840] starting
+[23/Feb/2008:22:00:30 :: 14322] starting
+[23/Feb/2008:22:02:48 :: 16245] starting
+[23/Feb/2008:22:12:32 :: 23930] starting
+[24/Feb/2008:01:11:38 :: 32648] starting
+[24/Feb/2008:04:12:45 :: 32648] asked to terminate immediately
+[24/Feb/2008:04:12:45 :: 32648] terminated by explicit exit
+[24/Feb/2008:11:08:53 :: 17363] starting
+[24/Feb/2008:11:26:04 :: 17363] terminated gracefully
+[24/Feb/2008:11:44:35 :: 19820] starting
+[24/Feb/2008:12:06:07 :: 19820] terminated gracefully
+[25/Feb/2008:10:04:41 :: 26299] starting
+[25/Feb/2008:12:39:53 :: 26299] terminated gracefully
+[25/Feb/2008:12:39:53 :: 26299] asked to terminate immediately
+[25/Feb/2008:22:55:04 :: 26571] starting
+[25/Feb/2008:23:39:14 :: 26571] asked to terminate immediately
+[25/Feb/2008:23:39:15 :: 26571] terminated by explicit exit
+[27/Feb/2008:02:17:06 :: 8652] starting
+[27/Feb/2008:02:22:09 :: 13183] starting
+[27/Feb/2008:06:05:52 :: 13183] terminated gracefully
+[27/Feb/2008:06:05:52 :: 13183] asked to terminate immediately
+[27/Feb/2008:21:44:37 :: 7398] starting
+[27/Feb/2008:22:15:25 :: 7398] asked to terminate immediately
+[27/Feb/2008:22:15:25 :: 7398] terminated by explicit exit
+[27/Feb/2008:23:13:22 :: 14150] starting
+[28/Feb/2008:02:44:13 :: 14150] terminated gracefully
+[28/Feb/2008:02:44:13 :: 14150] asked to terminate immediately
+[28/Feb/2008:20:01:24 :: 10039] starting
+[28/Feb/2008:20:24:18 :: 30295] starting
+[28/Feb/2008:23:43:58 :: 30018] starting
+[29/Feb/2008:00:31:14 :: 7473] starting
+[29/Feb/2008:01:41:29 :: 7473] asked to terminate immediately
+[29/Feb/2008:01:41:29 :: 7473] terminated by explicit exit
+[29/Feb/2008:19:44:23 :: 6230] starting
+[29/Feb/2008:20:21:50 :: 8056] starting
+[29/Feb/2008:20:28:13 :: 12422] starting
+[29/Feb/2008:20:36:36 :: 18579] starting
+[29/Feb/2008:22:56:19 :: 18579] asked to terminate immediately
+[29/Feb/2008:22:56:19 :: 18579] terminated by explicit exit
+[29/Feb/2008:22:56:28 :: 26832] starting
+[29/Feb/2008:22:57:31 :: 26832] asked to terminate immediately
+[29/Feb/2008:22:57:31 :: 26832] terminated by explicit exit
+[29/Feb/2008:22:57:35 :: 27577] starting
+[29/Feb/2008:23:04:22 :: 27577] asked to terminate immediately
+[29/Feb/2008:23:04:22 :: 27577] terminated by explicit exit
+[29/Feb/2008:23:04:29 :: 2545] starting
+[29/Feb/2008:23:05:58 :: 2545] asked to terminate immediately
+[29/Feb/2008:23:05:58 :: 2545] terminated by explicit exit
+[29/Feb/2008:23:06:03 :: 5710] starting
+[29/Feb/2008:23:06:41 :: 5710] asked to terminate immediately
+[29/Feb/2008:23:06:41 :: 5710] terminated by explicit exit
+[29/Feb/2008:23:06:43 :: 6330] starting
+[01/Mar/2008:03:07:15 :: 6330] terminated gracefully
+[01/Mar/2008:12:16:22 :: 24731] starting
+[01/Mar/2008:12:24:53 :: 24731] asked to terminate immediately
+[01/Mar/2008:12:24:53 :: 24731] terminated by explicit exit
+[01/Mar/2008:12:24:58 :: 5198] starting
+[01/Mar/2008:12:25:33 :: 5198] asked to terminate immediately
+[01/Mar/2008:12:25:33 :: 5198] terminated by explicit exit
+[01/Mar/2008:12:25:37 :: 5969] starting
+[01/Mar/2008:12:25:49 :: 5969] asked to terminate immediately
+[01/Mar/2008:12:25:49 :: 5969] terminated by explicit exit
+[01/Mar/2008:12:25:54 :: 6160] starting
+[01/Mar/2008:12:26:51 :: 6160] asked to terminate immediately
+[01/Mar/2008:12:26:51 :: 6160] terminated by explicit exit
+[01/Mar/2008:12:26:55 :: 7267] starting
+[01/Mar/2008:13:33:54 :: 7267] asked to terminate immediately
+[01/Mar/2008:13:33:54 :: 7267] terminated by explicit exit
+[01/Mar/2008:13:34:04 :: 21932] starting
+[01/Mar/2008:13:37:25 :: 21932] asked to terminate immediately
+[01/Mar/2008:13:37:25 :: 21932] terminated by explicit exit
+[01/Mar/2008:13:37:31 :: 25027] starting
+[01/Mar/2008:15:00:17 :: 25027] asked to terminate immediately
+[01/Mar/2008:15:00:17 :: 25027] terminated by explicit exit
+[02/Mar/2008:13:09:20 :: 24818] starting
+[02/Mar/2008:13:41:26 :: 24818] terminated gracefully
+[02/Mar/2008:13:41:26 :: 24818] asked to terminate immediately
+[02/Mar/2008:23:34:06 :: 20275] starting
+[03/Mar/2008:06:16:27 :: 20275] terminated gracefully
+[03/Mar/2008:20:56:54 :: 6542] starting
+[03/Mar/2008:21:01:00 :: 6542] asked to terminate immediately
+[03/Mar/2008:21:01:00 :: 6542] terminated by explicit exit
+[03/Mar/2008:21:01:03 :: 10409] starting
+[03/Mar/2008:21:08:29 :: 10409] asked to terminate immediately
+[03/Mar/2008:21:08:29 :: 10409] terminated by explicit exit
+[03/Mar/2008:21:08:32 :: 19011] starting
+[03/Mar/2008:22:14:58 :: 19011] terminated gracefully
+[04/Mar/2008:20:28:00 :: 1508] starting
+[19/Mar/2008:21:57:19 :: 27487] starting
+[19/Mar/2008:21:58:21 :: 27487] asked to terminate immediately
+[19/Mar/2008:21:58:21 :: 27487] terminated by explicit exit
+[19/Mar/2008:21:58:23 :: 28522] starting
+[19/Mar/2008:22:08:30 :: 28522] asked to terminate immediately
+[19/Mar/2008:22:08:30 :: 28522] terminated by explicit exit
+[19/Mar/2008:22:08:36 :: 7253] starting
+[19/Mar/2008:22:10:51 :: 7253] asked to terminate immediately
+[19/Mar/2008:22:10:51 :: 7253] terminated by explicit exit
+[19/Mar/2008:22:10:53 :: 8984] starting
+[19/Mar/2008:22:12:22 :: 8984] asked to terminate immediately
+[19/Mar/2008:22:12:22 :: 8984] terminated by explicit exit
+[19/Mar/2008:22:13:43 :: 11379] starting
+[19/Mar/2008:22:13:52 :: 11379] asked to terminate immediately
+[19/Mar/2008:22:13:52 :: 11379] terminated by explicit exit
+[19/Mar/2008:22:13:55 :: 11517] starting
+[19/Mar/2008:22:26:40 :: 11517] asked to terminate immediately
+[19/Mar/2008:22:26:40 :: 11517] terminated by explicit exit
+[19/Mar/2008:22:26:47 :: 22374] starting
+[19/Mar/2008:22:36:13 :: 22374] asked to terminate immediately
+[19/Mar/2008:22:36:13 :: 22374] terminated by explicit exit
+[19/Mar/2008:22:36:20 :: 29827] starting
+[19/Mar/2008:22:37:12 :: 29827] asked to terminate immediately
+[19/Mar/2008:22:37:12 :: 29827] terminated by explicit exit
+[19/Mar/2008:22:37:14 :: 30715] starting
+[19/Mar/2008:23:24:18 :: 30715] terminated gracefully
+[19/Mar/2008:23:52:25 :: 2883] starting
+[20/Mar/2008:00:09:40 :: 2883] asked to terminate immediately
+[20/Mar/2008:00:09:40 :: 2883] terminated by explicit exit
+[20/Mar/2008:00:09:48 :: 19987] starting
+[20/Mar/2008:00:17:00 :: 19987] terminated gracefully
+[20/Mar/2008:00:17:30 :: 26879] starting
+[20/Mar/2008:00:26:43 :: 26879] terminated gracefully
+[20/Mar/2008:00:26:43 :: 26879] asked to terminate immediately
+[20/Mar/2008:00:29:23 :: 12464] starting
+[20/Mar/2008:03:37:14 :: 12464] terminated gracefully
+[20/Mar/2008:10:35:17 :: 21075] starting
+[20/Mar/2008:11:49:46 :: 21075] terminated gracefully
+[20/Mar/2008:11:53:44 :: 20398] starting
+[20/Mar/2008:12:05:15 :: 20398] asked to terminate immediately
+[20/Mar/2008:12:05:15 :: 20398] terminated by explicit exit
+[20/Mar/2008:19:18:18 :: 7218] starting
+[20/Mar/2008:19:27:11 :: 7218] terminated gracefully
+[20/Mar/2008:19:27:48 :: 18424] starting
+[20/Mar/2008:21:08:48 :: 18424] terminated gracefully
+[20/Mar/2008:21:08:48 :: 18424] asked to terminate immediately
+[20/Mar/2008:21:40:48 :: 19552] starting
+[20/Mar/2008:22:18:36 :: 19552] terminated gracefully
+[20/Mar/2008:22:18:36 :: 19552] asked to terminate immediately
+[20/Mar/2008:22:28:59 :: 32188] starting
+[20/Mar/2008:23:49:25 :: 32188] terminated gracefully
+[21/Mar/2008:10:44:25 :: 26411] starting
+[21/Mar/2008:10:58:33 :: 26411] terminated gracefully
+[21/Mar/2008:10:58:33 :: 26411] asked to terminate immediately
+[21/Mar/2008:20:23:56 :: 6168] starting
+[21/Mar/2008:21:46:31 :: 6168] asked to terminate immediately
+[21/Mar/2008:21:46:31 :: 6168] terminated by explicit exit
+[21/Mar/2008:22:58:06 :: 31435] starting
+[22/Mar/2008:00:18:40 :: 31435] terminated gracefully
+[22/Mar/2008:00:18:40 :: 31435] asked to terminate immediately
+[22/Mar/2008:01:13:56 :: 8340] starting
+[22/Mar/2008:01:27:24 :: 8340] terminated gracefully
+[22/Mar/2008:01:27:25 :: 8340] asked to terminate immediately
+[22/Mar/2008:01:34:46 :: 25981] starting
+[22/Mar/2008:01:41:37 :: 25981] terminated gracefully
+[22/Mar/2008:02:09:33 :: 24763] starting
+[22/Mar/2008:02:55:56 :: 24763] asked to terminate immediately
+[22/Mar/2008:02:55:56 :: 24763] terminated by explicit exit
+[22/Mar/2008:03:24:22 :: 30866] starting
+[22/Mar/2008:04:11:50 :: 30866] terminated gracefully
+[22/Mar/2008:04:11:51 :: 30866] asked to terminate immediately
+[22/Mar/2008:13:38:18 :: 12866] starting
+[22/Mar/2008:13:38:46 :: 12866] asked to terminate immediately
+[22/Mar/2008:13:38:46 :: 12866] terminated by explicit exit
+[22/Mar/2008:13:42:26 :: 16551] starting
+[22/Mar/2008:14:05:58 :: 16551] terminated gracefully
+[22/Mar/2008:14:05:58 :: 16551] asked to terminate immediately
+[22/Mar/2008:14:12:58 :: 14022] starting
+[22/Mar/2008:14:27:50 :: 14022] terminated gracefully
+[22/Mar/2008:14:27:50 :: 14022] asked to terminate immediately
+[22/Mar/2008:17:15:40 :: 3902] starting
+[22/Mar/2008:20:48:49 :: 3902] terminated gracefully
+[22/Mar/2008:20:48:49 :: 3902] asked to terminate immediately
+[22/Mar/2008:20:57:23 :: 7081] starting
+[22/Mar/2008:21:00:06 :: 7081] asked to terminate immediately
+[22/Mar/2008:21:00:06 :: 7081] terminated by explicit exit
+[22/Mar/2008:21:40:19 :: 23608] starting
+[22/Mar/2008:22:22:24 :: 23608] asked to terminate immediately
+[22/Mar/2008:22:30:24 :: 27636] starting
+[22/Mar/2008:22:32:12 :: 27636] asked to terminate immediately
+[22/Mar/2008:22:32:12 :: 27636] terminated by explicit exit
+[23/Mar/2008:07:58:44 :: 29697] starting
+[23/Mar/2008:09:09:34 :: 29697] terminated gracefully
+[23/Mar/2008:09:09:34 :: 29697] asked to terminate immediately
+[23/Mar/2008:09:33:36 :: 27599] starting
+[23/Mar/2008:10:21:06 :: 27599] asked to terminate immediately
+[23/Mar/2008:10:21:06 :: 27599] terminated by explicit exit
+[23/Mar/2008:16:01:10 :: 2249] starting
